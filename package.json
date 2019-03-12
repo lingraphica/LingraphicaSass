@@ -1,0 +1,15 @@
+{
+	"name": "lingraphica-sass",
+	"version": "1.0.0",
+	"description": "sass files for lingraphica web apps",
+	"main": "./vendor/assets/stylesheets/lingraphicaSass.scss",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"author": "",
+	"license": "ISC"
+}
