@@ -25,6 +25,10 @@ Add this line to your application's package.json:
 "lingraphica-sass": "https://github.com/lingraphica/LingraphicaSass.git",
 ```
 
+And then execute:
+
+    npm install
+
 ## Usage
 
 Ruby:
