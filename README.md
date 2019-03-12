@@ -1,7 +1,7 @@
 # LingraphicaSass
 Stylesheets are located in vendor/assets/stylesheets
 
-This repo can be imported as a Node Module or Reby Gem. 
+This repo can be imported as a Node Module or Ruby Gem. 
 
 ## Installation
 
