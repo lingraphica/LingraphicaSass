@@ -35,7 +35,7 @@ In the application.scss file import the stylesheet
 @import "lingraphicaSass";
 ```
 
-Node:
+Vue:
 
 Import the stylesheet in any component that uses the sass styles
 
