@@ -8,6 +8,10 @@
 		border-color: $lingraphica-dark-teal;
 		color: white;
 	}
+	&:disabled {
+		background-color: $lingraphica-light-gray;
+		border-color: $lingraphica-light-gray;
+	}
 }
 
 .btn-lingraphica-dark-teal {
@@ -18,6 +22,10 @@
 		background-color: $lingraphica-peacock;
 		border-color: $lingraphica-peacock;
 		color: white;
+	}
+	&:disabled {
+		background-color: $lingraphica-light-gray;
+		border-color: $lingraphica-light-gray;
 	}
 }
 
@@ -30,6 +38,10 @@
 		border-color: $lingraphica-pumpkin;
 		color: white;
 	}
+	&:disabled {
+		background-color: $lingraphica-light-gray;
+		border-color: $lingraphica-light-gray;
+	}
 }
 
 .btn-lingraphica-true-red {
@@ -40,5 +52,9 @@
 		background-color: darkred;
 		border-color: darkred;
 		color: white;
+	}
+	&:disabled {
+		background-color: $lingraphica-light-gray;
+		border-color: $lingraphica-light-gray;
 	}
 }
