@@ -1,0 +1,44 @@
+//custom bootstrap button styles
+.btn-lingraphica-blue {
+	background-color: $lingraphica-blue;
+	border-color: $lingraphica-blue;
+	color: white;
+	&:hover {
+		background-color: $lingraphica-dark-teal;
+		border-color: $lingraphica-dark-teal;
+		color: white;
+	}
+}
+
+.btn-lingraphica-dark-teal {
+	background-color: $lingraphica-dark-teal;
+	border-color: $lingraphica-dark-teal;
+	color: white;
+	&:hover {
+		background-color: $lingraphica-peacock;
+		border-color: $lingraphica-peacock;
+		color: white;
+	}
+}
+
+.btn-lingraphcia-orange {
+	background-color: $lingraphica-orange;
+	border-color: $lingraphica-orange;
+	color: white;
+	&:hover {
+		background-color: $lingraphica-pumpkin;
+		border-color: $lingraphica-pumpkin;
+		color: white;
+	}
+}
+
+.btn-lingraphica-true-red {
+	background-color: $lingraphica-true-red;
+	border-color: $lingraphica-true-red;
+	color: white;
+	&:hover {
+		background-color: darkred;
+		border-color: darkred;
+		color: white;
+	}
+}

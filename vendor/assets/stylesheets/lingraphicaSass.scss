@@ -17,36 +17,5 @@ $lingraphica-sunshine: #f9f06d;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-//custom bootstrap button styles
-.btn-primary-lingraphica {
-	background-color: $lingraphica-blue;
-	border-color: $lingraphica-blue;
-	color: white;
-	&:hover {
-		background-color: $lingraphica-dark-teal;
-		border-color: $lingraphica-dark-teal;
-		color: white;
-	}
-}
-
-.btn-secondary-lingraphica {
-	background-color: $lingraphica-orange;
-	border-color: $lingraphica-orange;
-	color: white;
-	&:hover {
-		background-color: $lingraphica-pumpkin;
-		border-color: $lingraphica-pumpkin;
-		color: white;
-	}
-}
-
-.btn-danger-lingraphica {
-	background-color: $lingraphica-true-red;
-	border-color: $lingraphica-true-red;
-	color: white;
-	&:hover {
-		background-color: darkred;
-		border-color: darkred;
-		color: white;
-	}
-}
+@import "./buttons.scss";
+@import "./navigation.scss";
