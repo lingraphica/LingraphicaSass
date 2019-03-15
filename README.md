@@ -78,5 +78,8 @@ Import the stylesheet in any component that uses the sass styles
 
 ### Navbar Class
 
-.navbar-lingraphica
+`.navbar-lingraphica` <br>
+
+#### Example:
+`<nav class="navbar navbar-lingraphica navbar-expand-lg" role="navigation">`
 
