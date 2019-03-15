@@ -3,9 +3,11 @@ Stylesheets are located in vendor/assets/stylesheets
 
 This repo can be imported as a Node Module or Ruby Gem. 
 
+Projects that use these styles must also use Bootstrap version 4.0.0 + 
+
 ## Installation
 
-Ruby:
+### Ruby:
 
 Add this line to your application's Gemfile:
 
@@ -17,7 +19,7 @@ And then execute:
 
     $ bundle
 
-Node:
+### NPM:
 
 Add this line to your application's package.json: 
 
@@ -31,7 +33,7 @@ And then execute:
 
 ## Usage
 
-Ruby:
+### Ruby:
 
 In the application.scss file import the stylesheet
 
@@ -39,7 +41,7 @@ In the application.scss file import the stylesheet
 @import "lingraphicaSass";
 ```
 
-Vue:
+### Vue:
 
 Import the stylesheet in any component that uses the sass styles
 
@@ -47,7 +49,7 @@ Import the stylesheet in any component that uses the sass styles
 @import "lingraphica-sass";
 ```
 
-Colors
+### Colors
 
 ![#00adc6](https://placehold.it/15/00adc6/000000?text=+) `$lingraphica-blue` <br>
 ![#0089a5](https://placehold.it/15/0089a5/000000?text=+) `$lingraphica-dark-teal` <br>
@@ -63,4 +65,18 @@ Colors
 ![#cc5700](https://placehold.it/15/cc5700/000000?text=+) `$lingraphica-burnt-orange` <br>
 ![#cb2026](https://placehold.it/15/cb2026/000000?text=+) `$lingraphica-true-red` <br>
 ![#f9f06d](https://placehold.it/15/f9f06d/000000?text=+) `$lingraphica-sunshine` <br>
+
+### Button Classes
+
+`.btn-lingraphica-blue` <br>
+`.btn-lingraphica-dark-teal`<br>
+`.btn-lingraphica-orange` <br>
+`.btn-lingraphica-true-red` <br>
+
+#### Example:
+`<button class="btn btn-lingraphica-blue">Hello</button>`
+
+### Navbar Class
+
+.navbar-lingraphica
 
