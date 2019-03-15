@@ -10,7 +10,7 @@ Ruby:
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'lingraphicaSass', '[version]' git: "https://github.com/lingraphica/LingraphicaSass.git"
+gem 'lingraphicaSass', '[version]', git: "https://github.com/lingraphica/LingraphicaSass.git"
 ```
 
 And then execute:
