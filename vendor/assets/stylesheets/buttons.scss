@@ -14,6 +14,11 @@
 	}
 }
 
+.btn-lingraphica-blue.active {
+	background-color: $lingraphica-dark-teal;
+	border-color: $lingraphica-dark-teal;
+}
+
 .btn-lingraphica-dark-teal {
 	background-color: $lingraphica-dark-teal;
 	border-color: $lingraphica-dark-teal;
@@ -27,6 +32,11 @@
 		background-color: $lingraphica-light-gray;
 		border-color: $lingraphica-light-gray;
 	}
+}
+
+.btn-lingraphica-dark-teal.active {
+	background-color: $lingraphica-peacock;
+	border-color: $lingraphica-peacock;
 }
 
 .btn-lingraphica-orange {
@@ -44,6 +54,11 @@
 	}
 }
 
+.btn-lingraphica-dark-teal.active {
+	background-color: $lingraphica-pumpkin;
+	border-color: $lingraphica-pumpkin;
+}
+
 .btn-lingraphica-true-red {
 	background-color: $lingraphica-true-red;
 	border-color: $lingraphica-true-red;
@@ -57,4 +72,9 @@
 		background-color: $lingraphica-light-gray;
 		border-color: $lingraphica-light-gray;
 	}
+}
+
+.btn-lingraphica-dark-teal.active {
+	background-color: darkred;
+	border-color: darkred;
 }
