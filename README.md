@@ -47,4 +47,20 @@ Import the stylesheet in any component that uses the sass styles
 @import "lingraphica-sass";
 ```
 
+Colors
+
+![#00adc6](https://placehold.it/15/00adc6/000000?text=+) `$lingraphica-blue` <br>
+![#0089a5](https://placehold.it/15/0089a5/000000?text=+) `$lingraphica-dark-teal` <br>
+![#ff9933](https://placehold.it/15/ff9933/000000?text=+) `$lingraphica-orange` <br>
+![#000000](https://placehold.it/15/000000/000000?text=+) `$lingraphica-true-black` <br>
+![#cc5700](https://placehold.it/15/cc5700/000000?text=+) `$lingraphica-pumpkin` <br>
+![#76ced9](https://placehold.it/15/76ced9/000000?text=+) `$lingraphica-sky` <br>
+![#808285](https://placehold.it/15/808285/000000?text=+) `$lingraphica-dark-gray` <br>
+![#a7a9ac](https://placehold.it/15/a7a9ac/000000?text=+) `$lingraphica-light-gray` <br>
+![#006a88](https://placehold.it/15/006a88/000000?text=+) `$lingraphica-peacock` <br>
+![#8c6fad](https://placehold.it/15/8c6fad/000000?text=+) `$lingraphica-soft-purple` <br>
+![#378436](https://placehold.it/15/378436/000000?text=+) `$lingraphica-grass` <br>
+![#cc5700](https://placehold.it/15/cc5700/000000?text=+) `$lingraphica-burnt-orange` <br>
+![#cb2026](https://placehold.it/15/cb2026/000000?text=+) `$lingraphica-true-red` <br>
+![#f9f06d](https://placehold.it/15/f9f06d/000000?text=+) `$lingraphica-sunshine` <br>
 
