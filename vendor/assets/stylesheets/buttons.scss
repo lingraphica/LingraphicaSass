@@ -78,3 +78,88 @@
 	background-color: darkred;
 	border-color: darkred;
 }
+
+//outline buttons
+.btn-lingraphica-blue-outline {
+	background-color: white;
+	border-color: $lingraphica-blue;
+	color: black;
+	&:hover {
+		background-color: $lingraphica-blue;
+		border-color: $lingraphica-blue;
+		color: white;
+	}
+	&:disabled {
+		background-color: $lingraphica-light-gray;
+		border-color: $lingraphica-light-gray;
+	}
+}
+
+.btn-lingraphica-blue-outline.active {
+	background-color: $lingraphica-blue;
+	border-color: $lingraphica-blue;
+	color: white;
+}
+
+.btn-lingraphica-dark-teal-outline {
+	background-color: white;
+	border-color: $lingraphica-dark-teal;
+	color: black;
+	&:hover {
+		background-color: $lingraphica-dark-teal;
+		border-color: $lingraphica-dark-teal;
+		color: white;
+	}
+	&:disabled {
+		background-color: $lingraphica-light-gray;
+		border-color: $lingraphica-light-gray;
+	}
+}
+
+.btn-lingraphica-dark-teal-outline.active {
+	background-color: $lingraphica-dark-teal;
+	border-color: $lingraphica-dark-teal;
+	color: white;
+}
+
+.btn-lingraphica-orange-outline {
+	background-color: white;
+	border-color: $lingraphica-orange;
+	color: black;
+	&:hover {
+		background-color: $lingraphica-orange;
+		border-color: $lingraphica-orange;
+		color: white;
+	}
+	&:disabled {
+		background-color: $lingraphica-light-gray;
+		border-color: $lingraphica-light-gray;
+	}
+}
+
+.btn-lingraphica-orange-outline.active {
+	background-color: $lingraphica-orange;
+	border-color: $lingraphica-orange;
+	color: white;
+}
+
+.btn-lingraphica-true-red-outline {
+	background-color: white;
+	border-color: $lingraphica-true-red;
+	color: black;
+	&:hover {
+		background-color: $lingraphica-true-red;
+		border-color: $lingraphica-true-red;
+		color: white;
+	}
+	&:disabled {
+		background-color: $lingraphica-light-gray;
+		border-color: $lingraphica-light-gray;
+	}
+}
+
+.btn-lingraphica-true-red-outline.active {
+	background-color: $lingraphica-true-red;
+	border-color: $lingraphica-true-red;
+	color: white;
+}
