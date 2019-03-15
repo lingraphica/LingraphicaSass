@@ -10,7 +10,7 @@ Ruby:
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'lingraphicaSass', git: "https://github.com/lingraphica/LingraphicaSass.git"
+gem 'lingraphicaSass', '[version]' git: "https://github.com/lingraphica/LingraphicaSass.git"
 ```
 
 And then execute:
@@ -22,7 +22,7 @@ Node:
 Add this line to your application's package.json: 
 
 ```javascript
-"lingraphica-sass": "https://github.com/lingraphica/LingraphicaSass.git",
+"lingraphica-sass": "https://github.com/lingraphica/LingraphicaSass.git#[version]",
 ```
 
 And then execute:
