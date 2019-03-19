@@ -2,13 +2,9 @@
 	.navbar {
 		height: 50px;
 	}
-
-	.nav-item {
-		margin-left: -12px;
-	}
 }
 
-@media (min-width: 1030px) {
+@media (min-width: 1040px) {
 	.navbar-title {
 		position: absolute;
 		left: 0;
@@ -17,7 +13,7 @@
 	}
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1040px) {
 	.navbar-title {
 		width: 0%;
 		margin: 0px;
