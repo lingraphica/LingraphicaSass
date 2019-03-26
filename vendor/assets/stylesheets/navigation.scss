@@ -26,37 +26,37 @@
 	margin-bottom: 10px;
 	margin-left: -15px;
 	margin-right: -15px;
-	background-color: $lingraphica-pumpkin;
+	background-color: $lingraphica-pumpkin !important;
 
 	.navbar-brand {
-		color: white;
+		color: white !important;
 		a {
 			&:hover {
-				color: $lingraphica-sky;
+				color: $lingraphica-sky !important;
 			}
 		}
 	}
 
 	.navbar-title {
-		color: white;
+		color: white !important;
 	}
 
 	.navbar-nav {
 		li {
 			a {
-				color: white;
+				color: white !important;
 				&:hover {
-					color: $lingraphica-blue;
+					color: $lingraphica-blue !important;
 				}
 				&:focus {
-					color: $lingraphica-light-gray;
+					color: $lingraphica-light-gray !important;
 				}
 			}
 		}
 		.active {
 			a {
 				font-weight: bold;
-				color: $lingraphica-sky;
+				color: $lingraphica-sky !important;
 			}
 		}
 
@@ -66,17 +66,17 @@
 		}
 
 		.dropdown-header {
-			color: $lingraphica-peacock;
+			color: $lingraphica-peacock !important;
 		}
 
 		.dropdown-item {
-			color: black;
+			color: black !important;
 			&:hover {
-				color: black;
+				color: black !important;
 			}
 			&:focus {
-				background-color: $lingraphica-blue;
-				color: black;
+				background-color: $lingraphica-blue !important;
+				color: black !important;
 			}
 		}
 
@@ -89,10 +89,10 @@
 	}
 
 	.navbar-toggler {
-		color: $lingraphica-blue;
-		background-color: $lingraphica-sunshine;
+		color: $lingraphica-blue !important;
+		background-color: $lingraphica-sunshine !important;
 		&:hover {
-			background-color: $lingraphica-orange;
+			background-color: $lingraphica-orange !important;
 		}
 	}
 }
