@@ -1,24 +1,28 @@
 @media (min-width: 1000px) {
-	.navbar {
+	.navbar-lingraphica {
 		height: 50px;
 	}
 }
 
 @media (min-width: 1040px) {
-	.navbar-title {
-		position: absolute;
-		left: 0;
-		margin-left: 47%;
-		font-size: 20px;
+	.navbar-lingraphica {
+		.navbar-title {
+			position: absolute;
+			left: 0;
+			margin-left: 47%;
+			font-size: 20px;
+		}
 	}
 }
 
 @media (max-width: 1040px) {
-	.navbar-title {
-		width: 0%;
-		margin: 0px;
-		padding: 0px;
-		visibility: hidden;
+	.navbar-lingraphica {
+		.navbar-title {
+			width: 0%;
+			margin: 0px;
+			padding: 0px;
+			visibility: hidden;
+		}
 	}
 }
 
