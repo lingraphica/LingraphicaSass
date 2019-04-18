@@ -12,6 +12,9 @@
 		background-color: $lingraphica-light-gray;
 		border-color: $lingraphica-light-gray;
 	}
+	&:focus {
+		box-shadow: rgba(0, 171, 198, 0.5);
+	}
 }
 
 .btn-lingraphica-blue.active {
@@ -31,6 +34,9 @@
 	&:disabled {
 		background-color: $lingraphica-light-gray;
 		border-color: $lingraphica-light-gray;
+	}
+	&:focus {
+		box-shadow: rgba(0, 137, 165, 0.5);
 	}
 }
 
@@ -52,6 +58,9 @@
 		background-color: $lingraphica-light-gray;
 		border-color: $lingraphica-light-gray;
 	}
+	&:focus {
+		box-shadow: rgba(255, 153, 51, 0.5);
+	}
 }
 
 .btn-lingraphica-dark-teal.active {
@@ -71,6 +80,9 @@
 	&:disabled {
 		background-color: $lingraphica-light-gray;
 		border-color: $lingraphica-light-gray;
+	}
+	&:focus {
+		box-shadow: rgba(203, 32, 38, 0.5);
 	}
 }
 
