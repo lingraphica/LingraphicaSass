@@ -43,10 +43,42 @@ In the application.scss file import the stylesheet
 
 ### Vue:
 
-Import the stylesheet in any component that uses the sass styles
+#### How to get access to LG styles in component's html templates
+
+In main.js file import the stylesheet after the Booststrap imports
 
 ```javascript
+import BootstrapVue from 'bootstrap-vue';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-vue/dist/bootstrap-vue.css";
+import 'lingraphica-sass';
+```
+
+#### How to get access to LG styles in component's stylesheet
+
+Options 1: Import the stylesheet in any component that will use the LG styles in the stylesheet
+
+```css
+<style lang="scss">
 @import "lingraphica-sass";
+```
+
+Option 2: Globally import the stylesheet using vue.config.js files
+
+Steps
+1. In the root of the project create a file called vue.config.js
+2. add the following
+
+```javascript
+module.exports = {
+  css: {
+    loaderOptions: {
+      sass: {
+        data: `@import "lingraphica-sass";`
+      }
+    }
+  }
+};
 ```
 
 ### Colors
