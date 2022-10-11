@@ -12,7 +12,7 @@ Projects that use these styles must also use Bootstrap version 4.0.0 +
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'lingraphicaSass', '[version]', git: "https://github.com/lingraphica/LingraphicaSass.git"
+gem 'lingraphicaSass', '1.2.0', git: "https://github.com/lingraphica/LingraphicaSass.git"
 ```
 
 And then execute:
@@ -24,7 +24,7 @@ And then execute:
 Add this line to your application's package.json: 
 
 ```javascript
-"lingraphica-sass": "https://github.com/lingraphica/LingraphicaSass.git#[version]",
+"lingraphica-sass": "https://github.com/lingraphica/LingraphicaSass.git#1.2.0"
 ```
 
 And then execute:
