@@ -1,7 +1,7 @@
 {
 	"name": "lingraphica-sass",
-	"version": "1.1.9",
-	"description": "sass files for lingraphica web apps",
+	"version": "1.2.0",
+	"description": "SASS files for Lingraphica RoR apps.",
 	"main": "./vendor/assets/stylesheets/lingraphicaSass.scss",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
