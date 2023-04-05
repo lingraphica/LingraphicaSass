@@ -1,6 +1,6 @@
 {
 	"name": "lingraphica-sass",
-	"version": "1.3.0",
+	"version": "1.4.0",
 	"description": "SASS files for Lingraphica Rails apps.",
 	"main": "./vendor/assets/stylesheets/lingraphicaSass.scss",
 	"scripts": {
